@@ -16,5 +16,10 @@ public class Quadrilatero {
         System.out.println("Area do trapezio: " + ((baseMaior + baseMenor)*altura) / 2);
     }
 
+    public static void area(float diagonal1, float diagonal2) {
+
+        System.out.println("Area do losango: " + (diagonal1 * diagonal2) / 2);
+    }
+
 }
 
